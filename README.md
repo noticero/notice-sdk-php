@@ -23,7 +23,8 @@ Using just number and message:
     $notice->sendSms([
 	    'number' => '07XXXXXXXX',
 	    'message' => 'Hello, world!'
-	    ]));
+	]));
+
 Using template_id and variables:
 
     $notice->sendSms([
@@ -34,6 +35,7 @@ Using template_id and variables:
 		    'total'  =>  '100',
 		]
 	]);
+    
 [See available variables to use with templates here](https://documenter.getpostman.com/view/6644801/2s9YyzbxNU#a8bc4226-75fa-4ec3-886d-8e901dca9a05)
 
 Get Incoming SMS List:
