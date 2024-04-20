@@ -23,7 +23,7 @@ Using just number and message:
     $notice->sendSms([
 	    'number' => '07XXXXXXXX',
 	    'message' => 'Hello, world!'
-	]));
+	]);
 
 Using template_id and variables:
 
