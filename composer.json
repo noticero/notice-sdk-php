@@ -1,5 +1,5 @@
 {
-    "name": "notice/sdk-php",
+    "name": "noticero/notice-sdk-php",
     "description": "PHP SDK Wrapper around notice.ro API",
     "type": "library",
     "license": "MIT",
